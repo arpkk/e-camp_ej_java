@@ -1,4 +1,5 @@
 package patrones;
+
 import java.util.Scanner;
 
 public class PatronesAnidados {
@@ -58,7 +59,7 @@ public class PatronesAnidados {
         } else {
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < n; j++) {
-                    if (j==i || j==n-i-1)
+                    if (j == i || j == n - i - 1)
                         System.out.print("x");
                     else
                         System.out.print(" ");
@@ -68,18 +69,17 @@ public class PatronesAnidados {
         }
     }
 
-    public void patron4(int n){
+    public void patron4(int n) {
         if (n == 1) {
             System.out.println("x");
-        }
-        else {
-            for (int i = 0; i < n-1; i++) {
+        } else {
+            for (int i = 0; i < n - 1; i++) {
                 System.out.print("*");
             }
             System.out.println("");
-            for (int i = 0; i < n-2; i++) {
-                for (int j = 0; j < n-1; j++) {
-                    if (j==0)
+            for (int i = 0; i < n - 2; i++) {
+                for (int j = 0; j < n - 1; j++) {
+                    if (j == 0)
                         System.out.print(" ");
                     else
                         System.out.print("*");
@@ -87,7 +87,7 @@ public class PatronesAnidados {
                 System.out.println("");
             }
             for (int i = 0; i < n; i++) {
-                if (i==0)
+                if (i == 0)
                     System.out.print(" ");
                 else
                     System.out.print("*");

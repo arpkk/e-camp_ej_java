@@ -1,6 +1,6 @@
 package deporte;
 
-public class Deportista extends Persona{
+public class Deportista extends Persona {
     private String deporte;
 
     public Deportista(String nombre, String deporte) {
@@ -18,6 +18,6 @@ public class Deportista extends Persona{
 
     @Override
     public void andar() {
-        System.out.println(getNombre()+" camina a 20km");
+        System.out.println(getNombre() + " camina a 20km");
     }
 }

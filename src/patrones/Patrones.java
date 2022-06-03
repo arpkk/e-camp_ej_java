@@ -23,7 +23,7 @@ public class Patrones {
                 System.out.print("3");
             }
             if (ban == 4) {
-                ban=0;
+                ban = 0;
                 System.out.print("4");
             }
             ban++;
@@ -48,6 +48,7 @@ public class Patrones {
             ban++;
         }
     }
+
     public static void main(String[] args) {
         Patrones a = new Patrones();
         a.patron1(13);

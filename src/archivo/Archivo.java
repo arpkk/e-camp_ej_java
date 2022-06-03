@@ -50,7 +50,7 @@ public class Archivo {
 
 
     public static void buscarTexto(String nombreFichero, String texto) {
-        int count=0;
+        int count = 0;
         try {
             File archivo = new File(nombreFichero);
             if (archivo.exists()) {
@@ -58,11 +58,11 @@ public class Archivo {
                 BufferedReader br = new BufferedReader(fr);
                 String data = br.readLine();
                 while (data != null) {
-                    if(data.equals(texto))
+                    if (data.equals(texto))
                         count++;
                     data = br.readLine();
                 }
-                System.out.println("cantidad de repeticiones del texto -> "+count);
+                System.out.println("cantidad de repeticiones del texto -> " + count);
                 br.close();
             } else {
                 System.out.println("El fichero ingresado no existe");

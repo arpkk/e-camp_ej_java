@@ -15,8 +15,8 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public void andar(){
-        System.out.println(getNombre()+" camina a 5km");
+    public void andar() {
+        System.out.println(getNombre() + " camina a 5km");
     }
 
 }
